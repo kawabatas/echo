@@ -1,4 +1,4 @@
-module github.com/labstack/echo/v4
+module github.com/kawabatas/echo/v4
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
