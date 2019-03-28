@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kawabatas/echo/v4"
+	"github.com/kawabatas/echo"
 	"github.com/labstack/gommon/color"
 	"github.com/valyala/fasttemplate"
 )
