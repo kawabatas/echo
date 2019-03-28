@@ -660,7 +660,10 @@ func (e *Echo) StartServer(s *http.Server) (err error) {
 	// Setup
 	e.colorer.SetOutput(e.Logger.Output())
 	s.ErrorLog = e.StdLogger
-	s.Handler = e
+	if s.Handler == nil {
+		s.Handler = e
+	}
+
 	if e.Debug {
 		e.Logger.SetLevel(log.DEBUG)
 	}
