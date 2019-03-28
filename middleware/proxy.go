@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kawabatas/echo"
+	"github.com/kawabatas/echo/v4"
 )
 
 // TODO: Handle TLS proxy

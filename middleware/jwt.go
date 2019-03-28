@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/kawabatas/echo"
+	"github.com/kawabatas/echo/v4"
 )
 
 type (

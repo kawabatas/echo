@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kawabatas/echo"
+	"github.com/kawabatas/echo/v4"
 )
 
 type (

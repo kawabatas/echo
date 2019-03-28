@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/kawabatas/echo"
+	"github.com/kawabatas/echo/v4"
 )
 
 // RedirectConfig defines the config for Redirect middleware.

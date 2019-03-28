@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kawabatas/echo"
+	"github.com/kawabatas/echo/v4"
 	"github.com/stretchr/testify/assert"
 )
 
