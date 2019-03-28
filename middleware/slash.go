@@ -3,7 +3,7 @@ package middleware
 import (
 	"strings"
 
-	"github.com/kawabatas/echo/v4"
+	"github.com/kawabatas/echo"
 )
 
 type (

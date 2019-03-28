@@ -8,7 +8,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/kawabatas/echo/v4"
+	"github.com/kawabatas/echo"
 )
 
 type (
